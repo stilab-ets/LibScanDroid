@@ -1,0 +1,27 @@
+{
+  "name": "visualisation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "chart.js",
+  "dependencies": {
+    "a2d3": "^1.1.2",
+    "connect": "^3.7.0",
+    "express": "^4.17.1",
+    "serve-static": "^1.14.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexingfds/visualisation.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexingfds/visualisation/issues"
+  },
+  "homepage": "https://github.com/alexingfds/visualisation#readme"
+}

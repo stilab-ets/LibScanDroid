@@ -1,0 +1,133 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <script src="d3.js"></script> -->
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <title>Liraries Visualisation</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    
+    <h1>LibScanDroid</h1>
+
+
+
+<header>
+  
+<div class="topnav">
+
+  <a class="active" href="index.html">Home</a>
+  <a href="#about">About</a>
+  <a href="#contact">Contact</a>
+
+  <input type="button" class="submit" id="submit_form" onclick="checkInput()" value="Submit">
+  <input type="text" id="search" placeholder="Search..">
+  <input type="file" id="myfile" name="myfile">
+
+  
+</div>
+</header>
+
+
+
+
+    <div >
+ 
+  <div >
+    <!-- Control the column width, and how they should appear on different devices -->
+    <div class="row">
+
+      <div class="col-sm-3 verticalborder"  style="background-color:white;">
+                      <div style="background-color:white; padding: 2px;">
+<div>
+    <p>Parameters </p>
+</div>
+<div class="slidecontainer">
+  <input type="range" min="0" max="1" value="0.6" class="slider" id="myRange" step="0.1" onChange="update()">
+  <p>MaxEpsilon: <span id="demo"></span></p>
+</div>
+<div class="slidecontainer">
+  <input type="range" min="2" max="20" value="6" class="slider" id="myRange1"step="1" onChange="update()">
+  <p>MinPoints: <span id="demo1"></span></p>
+</div>
+
+<div class="slidecontainer">
+  <input type="range" min="0.01" max="0.2" value="0.05" class="slider" id="myRange2" step="0.01" onChange="update()">
+  <p>StepEpsilon: <span id="demo2"></span></p>
+</div>
+
+<script>
+var slider = document.getElementById("myRange");
+var output = document.getElementById("demo");
+output.innerHTML = slider.value;
+
+slider.oninput = function() {
+  output.innerHTML = this.value;
+}
+</script>
+<script>
+var slider1 = document.getElementById("myRange1");
+var output1 = document.getElementById("demo1");
+output1.innerHTML = slider1.value;
+
+slider1.oninput = function() {
+  output1.innerHTML = this.value;
+}
+</script>
+<script>
+var slider2 = document.getElementById("myRange2");
+var output2 = document.getElementById("demo2");
+output2.innerHTML = slider2.value;
+
+slider2.oninput = function() {
+  output2.innerHTML = this.value;
+}
+</script>
+<script>
+
+
+    </script>
+
+</div>
+      </div>
+
+
+
+      <div class="col-sm-9" style="background-color:white;">
+        <div class="myBox" style= " padding: 2px ;background-color:white";>
+        </div>
+
+   <!--    </div>
+
+      <div class="col-sm-1" style="background-color: white;">
+        
+      </div> -->
+    </div></div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+   
+
+
+
+    <script src="zoom.js"></script>
+
+
+<div class="jumbotron text-center" style="margin-bottom:0">
+    <div class="copyright">
+    <p>&copy 2021- Richardson Alexandre</p>
+  </div>
+</div>
+</body>
+</html> 
