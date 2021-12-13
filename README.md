@@ -9,4 +9,4 @@ VisulisationThe
 </p>
 
 # Troubleshooting
-If you encounter any difficulties in working with the tool or the datasets, please do not hesitate to contact us at one of the following email:  richardason.alexandre.1@ens.etsmtl.ca. We will try our best to answer you as soon as possible.
+If you encounter any difficulties in working with the tool or the datasets, please do not hesitate to contact us at githe following email:  richardson.alexandre.1@ens.etsmtl.ca. We will try our best to answer you as soon as possible.
