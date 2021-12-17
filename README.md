@@ -14,6 +14,6 @@ If you encounter any difficulties in working with the tool or the datasets, plea
 # Visualisation
 In the left panel we have the parameters that can be modified by using the slidebar. In the main we have the visualisation of library pattern. somme partterns could be missed depending on  the parameters because they had not been generated so they are not in data folder.
 # Recommandation
-
+In the menu bar there is in the right side a search bar for searching specific library  in order to visualize the co-usage history. we a have an input that accept a text file with a list of libraries for searching.
 
 
