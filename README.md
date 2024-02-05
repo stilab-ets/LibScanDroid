@@ -17,3 +17,16 @@ In the left panel we have the parameters that can be modified by using the slide
 In the menu bar there is in the right side a search bar for searching specific library  in order to visualize the co-usage history. we a have an input that accept a text file with a list of libraries for searching.
 
 
+# How to cite?
+
+Please, use the following bibtex entries:
+
+```tex
+@inproceedings{alexandre2022identification,
+  title={On the identification of third-party library usage patterns for android applications},
+  author={Alexandre, Richardson and Ouni, Ali and Saied, Mohamed Aymen and Bouktif, Salah and Mkaouer, Mohamed Wiem},
+  booktitle={Proceedings of the International Conference on Evaluation and Assessment in Software Engineering (EASE)},
+  pages={255--259},
+  year={2022}
+}
+```
